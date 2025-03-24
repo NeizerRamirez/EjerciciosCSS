@@ -46,14 +46,14 @@ nav ul li a {
 
 #contenedorImagen {
     float: left;
-    width: 55%;
+    width: 60%;
  /* Asegura que no haya bordes */
 }
 
 #Workers {
     width: 100%;
     height: auto;
-    padding: 7% 0px 20px 30px;
+    padding: 7% 0px 50px 80px;
 
 }
 
@@ -66,7 +66,7 @@ nav ul li a {
 #parrafo {
     background: #00baab; /* Color de fondo */
     color: rgb(255, 255, 255); /* Color del texto */
-    font-size: 22px; /* Tamaño del texto */
+    font-size: 19px; /* Tamaño del texto */
     font-weight: bold;
     padding: 35px; /* Espaciado interno */
     margin: 0; /* Elimina el margen predeterminado */
@@ -80,28 +80,13 @@ nav ul li a {
 
 #lateralDerecho {
     float: right;
-    width: 23%; /* Ajusta este valor según sea necesario */
-    margin-right: 0; /* Sin margen derecho */
+    width: 20%; /* Ajusta este valor según sea necesario */
+    margin-right: 230px; /* Sin margen derecho */
     padding: 20px;
     border-radius: 5px;
     box-sizing: border-box; /* Incluye el padding en el ancho */
+    padding-top: 65px;
 }
-
-.arrow {
-    position: absolute;
-    top: 50%;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.left { left: 10px; }
-.right { right: 10px; }
-
-
-
-
 
 footer  {
     background: rgb(0, 0, 0);
@@ -136,4 +121,8 @@ footer ul li {
 
 .imagen-footer{
     width: 50px;
+}
+
+.texto-footer{
+    padding-right: 150px;
 }
