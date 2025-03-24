@@ -50,7 +50,7 @@ nav ul li a {
  /* Asegura que no haya bordes */
 }
 
-#Workers {
+#trabajadores {
     width: 100%;
     height: auto;
     padding: 7% 0px 50px 80px;
@@ -61,6 +61,7 @@ nav ul li a {
     display: block; /* Hace que las imágenes se comporten como bloques */
     width: 100%; /* Ajusta el ancho al 100% del contenedor */
     margin-bottom: 10px; /* Espacio entre las imágenes y el párrafo */
+    cursor: pointer;
 }
 
 #parrafo {
