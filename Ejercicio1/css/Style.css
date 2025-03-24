@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.barraSuperior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #91A851;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+}
+.barraSuperior img {
+    display: block;
+    margin: 1% auto 2% auto;
+    width: 70%;
+    height: auto;
+    border: 20px solid #FFFFFF;
+}
+.titulo {
+    margin: 1% auto 2% auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu {
+    margin: 1% auto 2% auto;
+    list-style: none;
+    display: flex;
+    background-color: #FB7820;
+    padding: 20px 20px;
+    border-bottom: none;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+.barraInferior ul li, .seccionIzquierda ul li {
+    margin-top: 5%;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+ul li:last-child {
+    border-bottom: none;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+.barraMedia {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+.barraMedia div{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+button{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #FB7820;
+    color: white;
+    border: none;
+    text-align: center;
+}
+.seccionDerecha{
+    width: 65%;
+    margin-right: 5%;
+}
+.edificioMedia{
+    float: left; 
+    margin-top: 2%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    width: 20%;
+    height: auto; 
+}
+.seccionIzquierda{
+    margin-left: 10%;
+}
+.listaIzquierda{
+    padding: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.botonDerecho{
+    display: flex;
+    flex-wrap: wrap; 
+    clear: left;    
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    width: 20%;
+}
+.barraInferior{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    padding: 10px 30px;
+}
+.barraInferior h2{
+    text-align: left;
+}
+.barraInferior div ul{
+    list-style: none;
+    text-align: center;
+}
+footer{
+    background-color: #DCDDD6;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
