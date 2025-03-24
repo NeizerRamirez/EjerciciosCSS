@@ -46,39 +46,46 @@ nav ul li a {
 
 #contenedorImagen {
     float: left;
-    width: 60%;
+    width: 55%;
+ /* Asegura que no haya bordes */
 }
 
 #Workers {
-    width: 80%;
+    width: 100%;
     height: auto;
-    padding: 7% 10px 20px 30px;
+    padding: 7% 0px 20px 30px;
 
+}
+
+.imagen-boton {
+    display: block; /* Hace que las imágenes se comporten como bloques */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    margin-bottom: 10px; /* Espacio entre las imágenes y el párrafo */
+}
+
+#parrafo {
+    background: #00baab; /* Color de fondo */
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-size: 22px; /* Tamaño del texto */
+    font-weight: bold;
+    padding: 35px; /* Espaciado interno */
+    margin: 0; /* Elimina el margen predeterminado */
+    line-height: 1.5; /* Espaciado entre líneas */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    text-align: left; /* Alineación del texto */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+    border: 3px solid #fefefe; /* Borde resaltado */
 }
 
 #lateralDerecho {
     float: right;
-    width: 30%;
-    margin-left: 20px;
+    width: 23%; /* Ajusta este valor según sea necesario */
+    margin-right: 0; /* Sin margen derecho */
     padding: 20px;
     border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding en el ancho */
 }
-
-.boton, #parrafo {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btnNaranka { background: orange; }
-.btnVerde { background: green; }
-.btnAzul { background: #00aaff; }
-#parrafo { background: #00ffcc; }
-
 
 .arrow {
     position: absolute;
@@ -94,31 +101,16 @@ nav ul li a {
 
 
 
-.btn, #parrafo {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-}
-
-.orange { background: orange; }
-.green { background: green; }
-.blue { background: #00aaff; }
-#parrafo { background: #00ffcc; }
 
 
 footer  {
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     overflow: hidden; 
-
+    display: inline-block;
 }
 
 .contact-info {
@@ -129,4 +121,19 @@ footer  {
 .footer-note {
     text-align: right;
     font-size: 12px;
+}
+
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.imagen-footer{
+    width: 50px;
 }
